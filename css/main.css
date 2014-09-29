@@ -1,0 +1,100 @@
+.container{
+ margin-top: .5%;
+ margin-bottom: .5%;  
+ background-color: rgba(0, 0, 0, 0.88); 
+}
+body{
+  font-family: 'Fira Sans', sans-serif;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+ width:100%;
+ height:100%;
+}
+#webtitle{
+  color: white;
+  padding-bottom: 5px;
+  font-size: 40px;
+  text-align: center;
+
+}
+#nav{
+   margin: 0;
+    padding: 0;
+    text-decoration: none;
+    width: 100%;
+ }
+ #nav {
+  overflow:hidden;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+  width: 50%;
+
+}
+a:visited {
+COLOR: white;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  COLOR: blue;
+}
+#main-text{
+  color: blue;
+}
+#logo{
+    width: 400px;
+    height: auto;
+}
+
+#logo{
+    width: 300px;
+    height: auto;
+}
+
+.hr{
+  color: white;
+}
+#button{
+  text-align: center;
+}
+.row{
+  padding-bottom: 5px;
+}
+#menu{
+  text-align: center;
+  margin: 0 auto;
+}
+#hours{
+  color: white;
+  text-align: center;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+
+}
+#google-map{
+  text-align: center;
+  padding-bottom: 20px
+
+}
+#space{
+  padding-bottom: 20px;
+}
+@media (max-width: 320px) {
+  #logo {
+    margin: auto 0;
+    width: 220px;
+    height: 275px;
+
+  }
+  #iframe{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  
+}
